@@ -183,3 +183,25 @@ body {
   width: 100%;
   height: auto;
 }
+
+/* ===================================
+   Skip-link для быстрого перехода к контенту
+   =================================== */
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -100px;
+  z-index: 1000;
+  padding: 8px 12px;
+  color: #ffffff;
+  background-color: #111111;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  top: 16px;
+  outline: 3px solid var(--color-primary, #0057b8);
+  outline-offset: 3px;
+}
