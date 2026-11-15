@@ -35,14 +35,27 @@
 
     <!-- Hero-блок -->
     <section class="hero">
-      <h1>Учебный интернет-магазин</h1>
-      <p>
-        Это стартовая страница учебного frontend-проекта.
-        В дальнейшем на её основе будет разработан многостраничный сайт
-        интернет-магазина или каталога услуг.
-      </p>
-      <a class="button" href="#popular">Перейти к товарам</a>
-    </section>
+        <div class="hero__content">
+          <h1>Учебный интернет-магазин</h1>
+          <p>
+            Это стартовая страница учебного frontend-проекта.
+            В дальнейшем на её основе будет разработан многостраничный сайт
+            интернет-магазина или каталога услуг.
+          </p>
+          <a class="button" href="#popular">Перейти к товарам</a>
+        </div>
+        <picture class="hero__picture">
+          <source srcset="images/product.svg" type="image/svg+xml">
+          <img
+            src="images/product.svg"
+            alt="Каталог учебных товаров"
+            width="640"
+            height="360"
+            loading="lazy"
+            class="hero__image"
+          >
+        </picture>
+      </section>
 
     <!-- Блок преимуществ -->
     <section class="section advantages" id="advantages">

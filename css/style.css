@@ -445,17 +445,6 @@ a:focus-visible {
   margin-bottom: var(--space-xl);
 }
 
-.product-page__image-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 300px;
-  background-color: var(--color-surface);
-  border: 1px dashed var(--color-border);
-  border-radius: var(--radius-md);
-  color: var(--color-muted);
-}
-
 .product-page__info {
   display: flex;
   flex-direction: column;
